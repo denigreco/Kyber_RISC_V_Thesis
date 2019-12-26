@@ -1,0 +1,12 @@
+bin/
+
+*.o
+*.a
+*.so
+*~
+
+# Object and library files on Windows
+*.lib
+*.obj
+
+__pycache__
