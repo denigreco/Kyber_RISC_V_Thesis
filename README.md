@@ -39,11 +39,11 @@ All binaries are generated in the `bin` folder and they need to be manually run 
 ```sh
 sbt "runMain mupq.PQVexRiscvSim --init ../pqriscv/bin/crypto_kem_kyber512_kyber512r1_speed.bin"
 ```
-In this template, `crypto_kem_kyber512_kyber512r1_speed.bin` is the name of the binary that we are executing (generated previously):
-Replace **kyber512** with **kyber768** or **kyber1024** to get the results specific to the other security levels of Kyber.
-Replace **r1** with **r2** to get the results from round 2, and with **ref1** or **ref2** to get the results from the reference code of round 1 and 2. Each test has to be run individually. The current command produces the speed results indicated by the last word in it: **speed**.
-To compute how much Keccak takes in each block (key generation, encapsulation and decapsulation), replace the **speed** word with **hashing**.
-To get the **code size** of Kyber round 1 and 2, go to the the thesis folder and then run:
+In this template, `crypto_kem_kyber512_kyber512r1_speed.bin` is the name of the binary that we are executing (generated previously). \
+Replace **kyber512** with **kyber768** or **kyber1024** to get the results specific to the other security levels of Kyber. \
+Replace **r1** with **r2** to get the results from round 2, and with **ref1** or **ref2** to get the results from the reference code of round 1 and 2. Each test has to be run individually. The current command produces the speed results indicated by the last word in it: **speed**. \
+To compute how much Keccak takes in each block (key generation, encapsulation and decapsulation), replace the **speed** word with **hashing**. \
+To get the **code size** of Kyber round 1 and 2, go to the the thesis folder and then run: 
 ```sh
 $ cd crypto kem/code size/round1
 $ sh code size.sh
