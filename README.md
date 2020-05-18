@@ -1,8 +1,9 @@
 # Kyber on RISC-V
 
-**Author:** Denisa Greconici `<D.Greconici@cs.ru.nl>`
-This project is based on the [mupq/pqriscv](https://github.com/mupq/pqriscv) repository.
+**Author:** Denisa Greconici `<D.Greconici@cs.ru.nl>` \
+This project is based on the [mupq/pqriscv](https://github.com/mupq/pqriscv) repository.\
 The optimized Kyber implementation for RISC-V is in the folder:  `krypto_kem`
+
 
 ### Prerequisites
 1. Make sure that you install the [RISC-V GNU toolchain](https://github.com/riscv/riscv-gnu-toolchain). 
